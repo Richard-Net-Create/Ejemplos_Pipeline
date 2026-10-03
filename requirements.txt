@@ -1,0 +1,5 @@
+pandas
+openpyxl
+sqlalchemy
+pg8000
+yagmail

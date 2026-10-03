@@ -1,0 +1,20 @@
+# Credenciales y configuración local
+.env
+*.env
+!.env.example
+
+# Datos reales y salidas (pueden contener información personal)
+*.xlsx
+*.xls
+*.csv
+!datos/ejemplo_*.xlsx
+!datos/ejemplo_*.csv
+Reporte_Maestro*.xlsx
+salida/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
